@@ -1,5 +1,6 @@
 # PowerShell-Install-BITS
 PowerShell: Check if Program or Update is Installed and Download with BITS and Install
+
 https://www.grimadmin.com/article.php/powershell-check-program-update-installed-download-bits-install
 
 I recently wrote a PowerShell script for Windows that will check if a program or update is installed and, if not, download it using BITS in low priority, verify the download hash, and then install it and copy the verbose log to a central repository. The example is for the current latest Microsoft Surface Pro 7 firmware, but it can be adapted for just about any installer.
